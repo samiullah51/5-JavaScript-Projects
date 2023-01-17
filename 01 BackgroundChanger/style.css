@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.btns button{
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+ color: #fff;
+ padding: 5px 10px; 
+ border-radius: 5px;
+ box-shadow: 0 0 9px 1px rgba(0,0,0,0.2);  
+ transition: .2s;
+}
+.btns button:hover{
+    background-color: rgb(18, 50, 82);
+    cursor: pointer;
+}

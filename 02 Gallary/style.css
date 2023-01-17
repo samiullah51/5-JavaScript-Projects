@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.gallary {
+    display: flex;
+    border: 1px solid #ccc;
+    height: 300px;
+}
+.gallary .left{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+}
+.gallary .left img{
+width: 40px;
+height: 40px;
+margin: 5px;
+cursor: pointer;
+}
+
+.gallary .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallary .right img{
+    width: 200px;
+    height: 200px;
+}
+.active{
+    border: 2px solid red;
+    opacity: .6;
+}
